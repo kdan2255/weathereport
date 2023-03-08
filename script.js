@@ -3,7 +3,7 @@ let TrenutnaDTLokacija=Intl.DateTimeFormat().resolvedOptions().timeZone;
 let LocalLocation=document.getElementById('LocalLocation');
 let LocalTime=document.getElementById('LocalTime');
 let ImeVremena=document.getElementById('vremegrad');
-let kljuc=apikey.key;
+let kljuc="6d3b966560c86e97b4342990c35328d1";
 let InputFrom;
 let TrenutnaLokacija;
 let SadasnjaLokacija;
