@@ -1,4 +1,4 @@
-//Popravi sat za izabrano mesto ili vrati na pocetak ako ne uspes
+
 let TrenutnaDTLokacija=Intl.DateTimeFormat().resolvedOptions().timeZone;
 let LocalLocation=document.getElementById('LocalLocation');
 let LocalTime=document.getElementById('LocalTime');
@@ -10,10 +10,6 @@ let SadasnjaLokacija;
 let VremeStalno;
 var GlobalJSONData;
   BubbleWeather=document.getElementById('krug');
-//https://api.openweathermap.org/data/2.5/weather?q=Belgrade&appid=d32d21ff37d29737513635dfee7aa09d
-//`https://api.openweathermap.org/data/2.5/weather?q=${InputFrom}&appid=${kljuc}`
-
-
 
 
 document.getElementById('dugme').onclick=()=>{
